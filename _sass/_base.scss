@@ -159,9 +159,9 @@ header {
     text-align: center;
     color: white;
     .header-content {
-        position: absolute;
+        position: relative;
         text-align: center;
-        padding: 100px 15px 100px;
+        padding: 100px 15px;
         width: 100%;
         .header-content-inner {
             h1 {
