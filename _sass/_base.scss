@@ -150,7 +150,7 @@ aside {
 // Homepage Header
 
 header {
-    position: relative;
+    position: static;
     width: 100%;
     min-height: auto;
     @include background-cover;
@@ -160,7 +160,7 @@ header {
     color: white;
     .header-content {
         min-height: 100%;
-        position: static;
+        position: absolute;
         text-align: center;
         padding: 100px 15px 100px;
         width: 100%;
