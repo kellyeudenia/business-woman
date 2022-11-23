@@ -152,17 +152,19 @@ aside {
 header {
     position: relative;
     width: 100%;
-    min-height: auto;
+    //min-height: auto;
+    min-height: 100%;
     @include background-cover;
     background-position: center;
     background-image: url('../img/header.jpg');
     text-align: center;
     color: white;
     .header-content {
-        position: relative;
+        position: absolute;
         text-align: center;
-        padding: 100px 15px 100px;
+        padding: 0 50px;
         width: 100%;
+        top: 50%;
         .header-content-inner {
             h1 {
                 font-weight: 700;
