@@ -159,6 +159,7 @@ header {
     text-align: center;
     color: white;
     .header-content {
+        min-height: 100%;
         position: relative;
         text-align: center;
         padding: 100px 15px 100px;
@@ -182,7 +183,6 @@ header {
         }
     }
     @media (min-width: 768px) {
-        
         .header-content {
             position: absolute;
             top: 50%;
