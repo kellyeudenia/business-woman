@@ -152,7 +152,6 @@ aside {
 header {
     position: relative;
     width: 100%;
-    //min-height: auto;
     min-height: 100%;
     @include background-cover;
     background-position: center;
@@ -160,11 +159,10 @@ header {
     text-align: center;
     color: white;
     .header-content {
-        position: absolute;
+        position: relative;
         text-align: center;
-        padding: 0 50px;
+        padding: 100px 15px 100px;
         width: 100%;
-        top: 50%;
         .header-content-inner {
             h1 {
                 font-weight: 700;
@@ -205,7 +203,7 @@ header {
             }
         }
     }
-    @media (min-width: 2000px) {
+        @media (min-width: 768px) {
         min-height: 100%;
         .header-content {
             position: absolute;
