@@ -150,16 +150,15 @@ aside {
 // Homepage Header
 
 header {
-    position: static;
+    position: relative;
     width: 100%;
-    min-height: auto;
     @include background-cover;
     background-position: center;
     background-image: url('../img/header.jpg');
     text-align: center;
     color: white;
     .header-content {
-        position: static;
+        position: relative;
         text-align: center;
         padding: 100px 15px 100px;
         width: 100%;
