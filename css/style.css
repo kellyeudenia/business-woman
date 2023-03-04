@@ -5,7 +5,8 @@ body {
     font-family: Arial, sans-serif;
     background-image: url('../img/profile/landpage.png');
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center center;
+    background-attachment: fixed;
     background-size: cover;
   }
   
