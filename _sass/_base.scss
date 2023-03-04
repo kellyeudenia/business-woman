@@ -156,7 +156,11 @@ header {
     @include background-cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center; 
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     background-image: url('../img/profile/landpage.png');
     text-align: center;
     color: white;
