@@ -1,15 +1,17 @@
-html,
-body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
-
-#index {
-    background-image: url('../img/profile/landpage.jpg');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    background-size: cover;
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto; /* Habilita a barra de rolagem vertical */
+  }
+  
+  img {
+    max-width: 100%;
+    max-height: 100%;
   }
   
