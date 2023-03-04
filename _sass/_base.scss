@@ -154,7 +154,9 @@ header {
     width: 100%;
     min-height: auto;
     @include background-cover;
-    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
     background-image: url('../img/profile/landpage.png');
     text-align: center;
     color: white;
