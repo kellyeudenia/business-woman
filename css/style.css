@@ -5,14 +5,39 @@ body {
 	overflow: hidden;
 }
 
-.index {
-	position: fixed;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	width: 100vw;
-	height: 100vh;
-	object-fit: cover;
-	object-position: center;
-}
+/* Estilos para telas maiores que 768px de largura (Widescreen) */
+@media (min-width: 768px) {
+    body {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+  
+    .index {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 100vw;
+      height: 100vh;
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+  
+  /* Estilos para telas menores que 768px de largura (Mobile) */
+  @media (max-width: 767px) {
+    body {
+      margin: 0;
+      padding: 0;
+    }
+  
+    .index {
+      width: 100%;
+      height: auto;
+      max-height: 100vh;
+      display: block;
+      margin: 0 auto;
+    }
+  }
   
