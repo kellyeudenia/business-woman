@@ -1,58 +1,59 @@
+/* CSS personalizado */
 body {
-  background-color: #C39595;
-  font-family: Arial, sans-serif;
+	background-color: #C39595;
+	font-family: Arial, sans-serif;
 }
 
 header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
-  background-color: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+	background-color: #fff;
 }
 
 h1 {
-  color: #590219;
-  font-size: 32px;
-  margin: 0;
+	color: #590219;
+	font-size: 32px;
+	margin: 0;
 }
 
 h2 {
-  color: #433831;
-  font-size: 24px;
-  margin: 0;
+	color: #433831;
+	font-size: 24px;
+	margin: 0;
 }
 
 img {
-  width: 200px;
-  height: 200px;
+	width: 200px;
+	height: 200px;
 }
 
 main {
-  padding: 20px;
-  text-align: center;
+	padding: 20px;
+	text-align: center;
 }
 
 p {
-  color: #590219;
-  font-size: 24px;
+	color: #590219;
+	font-size: 24px;
 }
 
 .buttons {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
 }
 
 .button {
-  display: inline-block;
-  background-color: #fff;
-  border: none;
-  border-radius: 20px;
-  color: #590219;
-  font-size: 16px;
-  padding: 10px 20px;
-  margin: 0 10px;
-  text-decoration: none;
+	display: inline-block;
+	background-color: #fff;
+	border: none;
+	border-radius: 20px;
+	color: #590219;
+	font-size: 16px;
+	padding: 10px 20px;
+	margin: 0 10px;
+	text-decoration: none;
 }
